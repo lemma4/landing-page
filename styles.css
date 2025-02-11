@@ -72,13 +72,17 @@ ul {
 
 button {
     width: fit-content;
-    border:none;
+    border-color: #3882f6;
     color: #f9faf8;
     font-size: large;
     font-weight: 700;
     padding: 8px 32px;
     background-color: #3882f6;
     border-radius: 8px;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .second-box {
@@ -93,4 +97,38 @@ button {
 
 .second-box div {
     color: #e5e7eb;
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    margin-bottom: 85.5px;
+}
+
+.info {
+    text-align: center;
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+    padding:50px;
+}
+
+.material {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box {
+    border:solid #3882f6 4px;
+    height:150px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.text {
+    color:grey;
+    max-width: 150px;
+    text-align: center;
 }
