@@ -1,4 +1,5 @@
 body {
+    margin: 0px;
     font-family: "Roboto";
     display: flex;
     flex-direction: column;
@@ -6,4 +7,90 @@ body {
 
 a {
     text-decoration: none;
+    padding:0;
+    margin:0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.section-1 {
+    display:flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 0px 325px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px;
+}
+
+.logo {
+}
+
+.logo a {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.body-1 {
+    padding: 125px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.hero-main-text {
+    text-wrap: wrap;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first-box {
+    min-width: 450px;
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    gap: 6px;
+}
+
+button {
+    width: fit-content;
+    border:none;
+    color: #f9faf8;
+    font-size: large;
+    font-weight: 700;
+    padding: 8px 32px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.second-box {
+    min-width: 525px;
+    background-color: grey;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:525px;
+    height:auto;
+}
+
+.second-box div {
+    color: #e5e7eb;
 }
