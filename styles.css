@@ -103,7 +103,7 @@ button:hover {
     display: flex;
     justify-content: center;
     gap:50px;
-    margin-bottom: 85.5px;
+    margin-bottom: 150px;
 }
 
 .info {
@@ -117,18 +117,47 @@ button:hover {
 .material {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
 }
 
 .box {
     border:solid #3882f6 4px;
-    height:150px;
-    width: 150px;
+    height:175px;
+    width: 175px;
     border-radius: 15px;
 }
 
 .text {
     color:grey;
-    max-width: 150px;
+    max-width: 183px;
     text-align: center;
+    font-size: 18px;
+}
+
+.section3 {
+
+}
+
+.content3 {
+    background-color: #e5e7eb;
+    padding: 175px 450px;
+}
+
+.quote {
+    text-align: start;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.author div {
+    display:flex;
+    justify-content: end;
 }
