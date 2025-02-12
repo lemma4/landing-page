@@ -161,3 +161,33 @@ button:hover {
     display:flex;
     justify-content: end;
 }
+
+.sign-up {
+    padding: 100px 200px;
+}
+
+.container {
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #f9faf8;
+
+}
+
+.subtext2 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button-sign-up {
+    width: fit-content;
+    border-spacing:ma;
+    border: solid 2px #e5e7eb;
+}
