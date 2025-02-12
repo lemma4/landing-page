@@ -188,6 +188,19 @@ button:hover {
 
 .button-sign-up {
     width: fit-content;
-    border-spacing:ma;
     border: solid 2px #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 35px 0px;
+}
+
+.copy {
+    font-size:18px;
+    color: #e5e7eb;
+    text-align: center;
 }
